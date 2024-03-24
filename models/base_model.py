@@ -30,7 +30,6 @@ class BaseModel:
         else:
             models.storage.new(self)
 
-
     def save(self):
         """saves updates to filestorage"""
         self.updated_at = datetime.today()
